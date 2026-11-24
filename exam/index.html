@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claude certifications — practice exam</title>
+<meta name="description" content="Open practice exam for Anthropic's Claude 101, Claude Platform 101 and Claude Code 101 certificates. Independent study material by Adv Shoeb Hakim.">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="exam.css">
+<script src="exam.js" defer></script>
+</head>
+<body>
+
+<header class="ex-head">
+  <div class="ex-wrap">
+    <a class="ex-back" href="../">&larr; Back</a>
+    <h1 id="ex-title">Practice exam</h1>
+    <div class="ex-meta"><span id="ex-count"></span><span id="ex-timer" aria-live="polite"></span></div>
+  </div>
+</header>
+
+<main class="ex-wrap ex-main">
+
+  <section id="ex-start" class="ex-card">
+    <h2>Before you begin</h2>
+    <p id="ex-intro">Loading questions&hellip;</p>
+    <ul class="ex-rules">
+      <li>Questions and the choices inside each question are shuffled for every run.</li>
+      <li>One question at a time. Pick, then <strong>Check</strong>; the right answer and an explanation show at once.</li>
+      <li>Nothing is sent to a server. A best score is kept in this browser only.</li>
+      <li>This is independent practice material — not Anthropic's real course quiz.</li>
+    </ul>
+    <button id="ex-start-btn" class="ex-btn" data-copy-ok>Start the exam</button>
+  </section>
+
+  <section id="ex-quiz" class="ex-card" hidden>
+    <div class="ex-q-head">
+      <span class="ex-q-no" id="ex-q-no"></span>
+      <span class="ex-q-topic" id="ex-q-topic"></span>
+    </div>
+    <p class="ex-q-prompt" id="ex-q-prompt"></p>
+    <form id="ex-q-form" class="ex-choices"></form>
+    <div class="ex-q-foot">
+      <button id="ex-check" class="ex-btn" data-copy-ok disabled>Check</button>
+      <button id="ex-next" class="ex-btn ex-btn-alt" data-copy-ok hidden>Next question</button>
+    </div>
+    <div id="ex-feedback" class="ex-feedback" hidden></div>
+  </section>
+
+  <section id="ex-end" class="ex-card" hidden>
+    <h2>Your result</h2>
+    <p class="ex-end-score" id="ex-end-score"></p>
+    <p class="ex-end-line" id="ex-end-line"></p>
+    <div class="ex-end-foot">
+      <button id="ex-again" class="ex-btn" data-copy-ok>Try again</button>
+      <a class="ex-btn ex-btn-alt" href="../" data-copy-ok>Back to the three tiers</a>
+    </div>
+    <h3>Every question in this run</h3>
+    <ol id="ex-end-review" class="ex-review"></ol>
+  </section>
+
+</main>
+
+<footer class="ex-foot">
+  <div class="ex-wrap">
+    <p>Independent study material. Not affiliated with, sponsored by or endorsed by Anthropic. "Claude" is a trademark of Anthropic, PBC.</p>
+    <p><a href="https://github.com/shoebbhakim-shu/claude-certification-study">Source on GitHub</a> &middot; questions and notes CC BY 4.0 &middot; exam code MIT</p>
+  </div>
+</footer>
+
+</body>
+</html>

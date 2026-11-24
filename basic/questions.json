@@ -1,0 +1,528 @@
+{
+  "tier": "basic",
+  "title": "Practice exam: Basic (Claude 101)",
+  "prepares_for": "Claude 101 — https://academy.claude.com/courses/claude-101",
+  "pass_percent": 80,
+  "questions": [
+    {
+      "id": "basic-001",
+      "topic": "What is Claude",
+      "prompt": "Which training approach is Claude built on, according to the 'What is Claude?' lesson?",
+      "choices": [
+        "Reinforcement Learning from Human Feedback only",
+        "Constitutional AI",
+        "Supervised fine-tuning from search results",
+        "Rule-based scripting"
+      ],
+      "answer": 1,
+      "explanation": "The lesson names Constitutional AI as the approach that guides Claude to avoid toxic outputs, refuse to help with illegal or unethical activity, and behave as a safe and beneficial AI. See: Claude 101 → What is Claude?"
+    },
+    {
+      "id": "basic-002",
+      "topic": "What is Claude",
+      "prompt": "On which plans is Claude available, as listed in 'What is Claude?'",
+      "choices": [
+        "Pro and Enterprise only",
+        "Pro, Max and Ultra only",
+        "Free, Pro, Max, Ultra, Team and Enterprise",
+        "Team and Enterprise only"
+      ],
+      "answer": 2,
+      "explanation": "The lesson states Claude apps are available to all plan types: Free, Pro, Max, Ultra, Team and Enterprise. See: Claude 101 → What is Claude?"
+    },
+    {
+      "id": "basic-003",
+      "topic": "What is Claude",
+      "prompt": "What is Claude's default context window size, and what is the maximum available on paid plans with supported models?",
+      "choices": [
+        "100K default, 500K on paid",
+        "200K default, around 1 million on Pro, Max, Ultra, Team and Enterprise",
+        "128K default, 256K on paid",
+        "50K default, 200K on paid"
+      ],
+      "answer": 1,
+      "explanation": "The lesson gives 200K tokens (about 500 pages) by default, with up to 1M tokens available on Pro, Max, Ultra, Team and Enterprise plans using supported models. See: Claude 101 → What is Claude?"
+    },
+    {
+      "id": "basic-004",
+      "topic": "What is Claude",
+      "prompt": "Which of these is NOT listed as a way to access Claude in the 'What is Claude?' lesson?",
+      "choices": [
+        "Claude.ai (web, desktop and mobile apps)",
+        "Claude Code for developers",
+        "Claude Tag inside Slack",
+        "Claude for WhatsApp"
+      ],
+      "answer": 3,
+      "explanation": "The lesson lists Claude.ai, Claude Code, Claude Tag (Slack), Claude Design and Claude for Microsoft 365. There is no Claude for WhatsApp. See: Claude 101 → What is Claude?"
+    },
+    {
+      "id": "basic-005",
+      "topic": "First conversation",
+      "prompt": "The lesson describes a three-part frame for a good prompt. What are those three parts, in order?",
+      "choices": [
+        "Setting the stage, defining the task, specifying rules",
+        "Introduction, body, conclusion",
+        "Who, what, when",
+        "Role, deadline, deliverable"
+      ],
+      "answer": 0,
+      "explanation": "The lesson frames a good prompt as: set the stage (role and context), define the task (what Claude should do), and specify rules (style, tone, examples). See: Claude 101 → Your first conversation with Claude."
+    },
+    {
+      "id": "basic-006",
+      "topic": "First conversation",
+      "prompt": "Which file types does the lesson list as supported for upload?",
+      "choices": [
+        "Only PDF and DOCX",
+        "PDF, DOCX, CSV, TXT and common image formats (PNG, JPEG)",
+        "Only images",
+        "PDF and spreadsheets only"
+      ],
+      "answer": 1,
+      "explanation": "The lesson lists PDF, DOCX, CSV, TXT and common image formats (PNG, JPEG) as supported upload formats, including charts and graphs inside PDFs. See: Claude 101 → Your first conversation with Claude."
+    },
+    {
+      "id": "basic-007",
+      "topic": "First conversation",
+      "prompt": "Which Claude model does the lesson describe as the recommended default for everyday use?",
+      "choices": [
+        "Opus",
+        "Sonnet",
+        "Haiku",
+        "Fable"
+      ],
+      "answer": 1,
+      "explanation": "The lesson calls Sonnet 'the best choice for everyday users and our recommended default model'. Opus is for the most complex tasks. See: Claude 101 → Your first conversation with Claude."
+    },
+    {
+      "id": "basic-008",
+      "topic": "First conversation",
+      "prompt": "How do you refine a request you have already sent, without starting a new chat?",
+      "choices": [
+        "Delete the conversation and begin again",
+        "Start a new chat and paste the old prompt",
+        "Click the pencil icon on your message, edit it, and resubmit",
+        "Prefix the new message with /refine"
+      ],
+      "answer": 2,
+      "explanation": "The lesson says you can click the pencil icon on any of your messages to edit and resubmit — useful when you want to refine your request rather than add a new message. See: Claude 101 → Your first conversation with Claude."
+    },
+    {
+      "id": "basic-009",
+      "topic": "First conversation",
+      "prompt": "Where do personal instructions that apply to every conversation live, and what are they called in Settings?",
+      "choices": [
+        "Settings → Memory → Preferences",
+        "Settings → search for 'Instructions'; this is called Your Claude preferences on mobile",
+        "Settings → Profile → About me",
+        "There is no such setting — instructions only apply to one chat"
+      ],
+      "answer": 1,
+      "explanation": "The lesson's pro tip: click your name, open Settings, and search for Instructions; on mobile go through Your Claude. What you write there applies to every conversation. See: Claude 101 → Your first conversation with Claude."
+    },
+    {
+      "id": "basic-010",
+      "topic": "Getting better results",
+      "prompt": "A reply comes back too generic. What does the lesson tell you to try first?",
+      "choices": [
+        "Ask Claude to be more creative",
+        "Add details about your audience, role and constraints",
+        "Switch to Opus",
+        "Lower the thinking effort"
+      ],
+      "answer": 1,
+      "explanation": "For a generic reply, the lesson says your prompt did not include enough context: add details about your audience, your role and your constraints. See: Claude 101 → Getting better results."
+    },
+    {
+      "id": "basic-011",
+      "topic": "Getting better results",
+      "prompt": "What do the four letters of the 4D Framework for AI Fluency stand for?",
+      "choices": [
+        "Delegation, Description, Discernment, Diligence",
+        "Delegation, Description, Delivery, Deadline",
+        "Define, Design, Deploy, Debug",
+        "Discover, Define, Develop, Deliver"
+      ],
+      "answer": 0,
+      "explanation": "The 4D Framework identifies Delegation (what to hand to AI), Description (how to prompt it), Discernment (judging the output), and Diligence (using AI responsibly). See: Claude 101 → Getting better results."
+    },
+    {
+      "id": "basic-012",
+      "topic": "Getting better results",
+      "prompt": "The lesson describes a simple way to test Claude on your own work before you rely on it. What is it called?",
+      "choices": [
+        "A pilot deployment",
+        "An eval — comparing Claude's output to examples you already know are right",
+        "A dry run in Research mode",
+        "A benchmark test from Academy"
+      ],
+      "answer": 1,
+      "explanation": "An eval is a lightweight check: gather 5–10 past examples where you know the right answer, prompt Claude, compare. See: Claude 101 → Getting better results."
+    },
+    {
+      "id": "basic-013",
+      "topic": "Getting better results",
+      "prompt": "You got a confident answer that turned out to be wrong. What does the lesson recommend?",
+      "choices": [
+        "Report it as a bug",
+        "Verify key facts yourself; ask Claude to cite sources or confidence; use web search to ground the answer",
+        "Switch to Haiku for safer replies",
+        "Accept that AI makes mistakes and move on"
+      ],
+      "answer": 1,
+      "explanation": "For high-stakes work the lesson says to verify key facts independently, ask Claude to cite sources or indicate confidence, and use web search to ground responses. See: Claude 101 → Getting better results."
+    },
+    {
+      "id": "basic-014",
+      "topic": "Desktop",
+      "prompt": "The lesson describes three 'shapes of work' with Claude on the desktop. Which group is correct?",
+      "choices": [
+        "Writing, research, coding",
+        "Turn by turn, handing work off, building software",
+        "Draft, review, publish",
+        "Prompt, answer, iterate"
+      ],
+      "answer": 1,
+      "explanation": "Lesson 4 defines the three shapes as turn by turn (Chat), handing work off (Cowork), and building software (Code / Claude Code). See: Claude 101 → How you work with Claude on your desktop."
+    },
+    {
+      "id": "basic-015",
+      "topic": "Desktop",
+      "prompt": "What is the clearest practical difference between Chat and Cowork in the lesson?",
+      "choices": [
+        "Chat uses Sonnet, Cowork uses Opus",
+        "Cowork can read local folders and save files back; Chat reads uploads but hands results back as downloads",
+        "Chat is free; Cowork is paid",
+        "Cowork is only for coding"
+      ],
+      "answer": 1,
+      "explanation": "The lesson spells out that Cowork can read a folder on your computer and save finished work back to it; Chat reads uploads but returns downloads. See: Claude 101 → How you work with Claude on your desktop."
+    },
+    {
+      "id": "basic-016",
+      "topic": "Desktop",
+      "prompt": "Scheduled tasks and subagents are features of which shape of work?",
+      "choices": [
+        "Turn by turn (Chat)",
+        "Handing work off (Cowork)",
+        "Building software (Code tab)",
+        "All three equally"
+      ],
+      "answer": 1,
+      "explanation": "The lesson lists scheduled tasks and subagents under Cowork — the hand-off shape. See: Claude 101 → How you work with Claude on your desktop."
+    },
+    {
+      "id": "basic-017",
+      "topic": "Desktop",
+      "prompt": "A task has several steps, needs files saved to specific folders, and should run every Monday. Which shape fits best?",
+      "choices": [
+        "Turn by turn in Chat",
+        "Handing work off (Cowork)",
+        "Building software in the Code tab",
+        "Any — they are the same"
+      ],
+      "answer": 1,
+      "explanation": "Multi-step, outputs are files in your file system, and runs on a schedule — the lesson's three reasons to hand work off to Cowork. See: Claude 101 → How you work with Claude on your desktop."
+    },
+    {
+      "id": "basic-018",
+      "topic": "Projects",
+      "prompt": "What does a Claude Project store, that a plain chat does not?",
+      "choices": [
+        "Only chat history",
+        "Instructions, a knowledge base of files, grouped chats, and memory specific to the Project",
+        "Only uploaded files",
+        "Only Project instructions"
+      ],
+      "answer": 1,
+      "explanation": "A Project is a self-contained workspace with its own chats, instructions, knowledge base and memory. See: Claude 101 → Introduction to projects."
+    },
+    {
+      "id": "basic-019",
+      "topic": "Projects",
+      "prompt": "Your Project knowledge base grows past the context window. What does Claude do?",
+      "choices": [
+        "Refuses to answer until files are removed",
+        "Switches to RAG — searches your Project files and brings in only the relevant parts, raising effective capacity about 10x",
+        "Silently forgets the oldest file",
+        "Compresses files automatically"
+      ],
+      "answer": 1,
+      "explanation": "The lesson explains Retrieval-Augmented Generation: Claude searches the Project's knowledge and brings in only what is relevant, expanding capacity by up to 10×. See: Claude 101 → Introduction to projects."
+    },
+    {
+      "id": "basic-020",
+      "topic": "Projects",
+      "prompt": "Which of these is NOT a Project permission level in Team/Enterprise plans, according to the lesson?",
+      "choices": [
+        "Can view",
+        "Can edit",
+        "Owner",
+        "Can comment only"
+      ],
+      "answer": 3,
+      "explanation": "The lesson lists three permission levels: Can view, Can edit and Owner. Comment-only is not one of them. See: Claude 101 → Introduction to projects."
+    },
+    {
+      "id": "basic-021",
+      "topic": "Projects",
+      "prompt": "You upload a one-off file during a chat inside a Project, but do not add it to the knowledge base. What happens?",
+      "choices": [
+        "It is added to the knowledge base automatically",
+        "It stays available only in that chat, separate from Project knowledge",
+        "It is lost after the next message",
+        "It is shared with every member of the organisation"
+      ],
+      "answer": 1,
+      "explanation": "The lesson spells this out: a file uploaded in a single chat stays separate from the Project knowledge base and is only used in that chat. See: Claude 101 → Introduction to projects."
+    },
+    {
+      "id": "basic-022",
+      "topic": "Projects",
+      "prompt": "Which of these is a good Project practice from the lesson?",
+      "choices": [
+        "Give every file the same generic name so Claude is not biased",
+        "Name files descriptively (for example Q4-2026-Brand-Guidelines.pdf) so Claude can find and reason over them",
+        "Upload every company file you own, 'just in case'",
+        "Keep instructions blank and let Claude learn from use"
+      ],
+      "answer": 1,
+      "explanation": "The pro tip in the lesson: descriptive file names help Claude retrieve the right content. See: Claude 101 → Introduction to projects."
+    },
+    {
+      "id": "basic-023",
+      "topic": "Artifacts",
+      "prompt": "What is an artifact in Claude?",
+      "choices": [
+        "A saved chat transcript",
+        "A finished output — a document, deck, design, chart or interactive page — that opens in its own window and lives in the Artifacts tab",
+        "A connector configuration",
+        "A memory snapshot"
+      ],
+      "answer": 1,
+      "explanation": "The lesson defines an artifact as a stand-alone output in a dedicated window beside the chat, saved separately in the Artifacts tab. See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-024",
+      "topic": "Artifacts",
+      "prompt": "Which of these are the three dedicated artifact types the lesson names for common deliverables?",
+      "choices": [
+        "Claude Pages, Claude Sheets, Claude Boards",
+        "Claude Design, Claude Slides, Claude Docs",
+        "Claude Flows, Claude Mail, Claude Mockups",
+        "Claude Write, Claude Draw, Claude Chart"
+      ],
+      "answer": 1,
+      "explanation": "The lesson names Claude Design (visual work), Claude Slides (presentations) and Claude Docs (living documents). See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-025",
+      "topic": "Artifacts",
+      "prompt": "What is the difference between an artifact and file creation?",
+      "choices": [
+        "File creation is paid; artifacts are free",
+        "An artifact opens inside Claude and is shared by link; file creation gives you a downloadable file you open in another app (Word, Excel, PowerPoint, PDF)",
+        "Artifacts are only for code; file creation is for everything else",
+        "Artifacts are permanent; files are temporary"
+      ],
+      "answer": 1,
+      "explanation": "The lesson distinguishes them clearly: an artifact opens and updates in Claude and is shared by link; file creation hands you a file to download and open elsewhere. See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-026",
+      "topic": "Artifacts",
+      "prompt": "Three ways to change an artifact once it exists, according to the lesson. Pick the correct set.",
+      "choices": [
+        "Delete and remake; export and re-import; undo",
+        "Edit it directly, comment on the piece you want changed, or ask in the chat",
+        "Only through the conversation; direct edits not supported",
+        "Only by uploading a new version"
+      ],
+      "answer": 1,
+      "explanation": "The lesson lists three ways: edit directly, comment (optionally @-mentioning Claude), or ask in the chat. See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-027",
+      "topic": "Artifacts",
+      "prompt": "A chart or diagram inside a Claude Doc shows numbers from a connected tool. Does it update by itself?",
+      "choices": [
+        "Yes, always live",
+        "No — it is a snapshot; ask Claude to refresh it when you need the latest numbers",
+        "Only on Enterprise plans",
+        "Only if you set a refresh schedule"
+      ],
+      "answer": 1,
+      "explanation": "The lesson explicitly says charts and diagrams in a Doc are a snapshot, not a live feed; ask Claude to refresh. See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-028",
+      "topic": "Artifacts",
+      "prompt": "On a Team or Enterprise plan, can an artifact be shared with someone outside your organisation by default?",
+      "choices": [
+        "Yes, every artifact is public by default",
+        "Yes, with a 'view' link, but not with 'edit'",
+        "No — external sharing is off until an Owner turns it on in Organization settings → Artifacts",
+        "Only if the recipient has a Claude account"
+      ],
+      "answer": 2,
+      "explanation": "Links stay inside the organisation by default. External sharing is available only after an Owner enables it. See: Claude 101 → Creating with artifacts."
+    },
+    {
+      "id": "basic-029",
+      "topic": "Skills",
+      "prompt": "What is a Skill in Claude?",
+      "choices": [
+        "A saved prompt",
+        "A folder of instructions, scripts and resources that Claude loads automatically to perform a specialised task well",
+        "A paid add-on from Anthropic",
+        "A kind of chat history"
+      ],
+      "answer": 1,
+      "explanation": "The lesson defines Skills as folders of instructions, scripts and resources that Claude loads dynamically for specialised tasks. See: Claude 101 → Working with skills."
+    },
+    {
+      "id": "basic-030",
+      "topic": "Skills",
+      "prompt": "Which setting must be ON for Skills to work?",
+      "choices": [
+        "Memory",
+        "Web search",
+        "Create and edit files (also called Code execution and file creation)",
+        "Research mode"
+      ],
+      "answer": 2,
+      "explanation": "Skills need Create and edit files turned on because they run in the sandboxed computing environment. On Team and Enterprise this is an organisation-level setting. See: Claude 101 → Working with skills."
+    },
+    {
+      "id": "basic-031",
+      "topic": "Skills",
+      "prompt": "What is the easiest way to create your own custom Skill, according to the lesson?",
+      "choices": [
+        "Hand-write the SKILL.md file in a text editor",
+        "Use the Claude Code CLI",
+        "Talk to Claude about the workflow you want to repeat; Claude interviews you and generates the skill file",
+        "Buy one from the Skills store"
+      ],
+      "answer": 2,
+      "explanation": "The lesson says the easiest route is a conversation with Claude: you describe the workflow, Claude interviews you, and it generates the skill for you. See: Claude 101 → Working with skills."
+    },
+    {
+      "id": "basic-032",
+      "topic": "Skills",
+      "prompt": "Skills vs Projects — which contrast is right?",
+      "choices": [
+        "Projects store process, Skills store knowledge",
+        "Projects store knowledge, Skills define a process Claude executes",
+        "They are the same thing with different names",
+        "Skills are for teams, Projects are for individuals"
+      ],
+      "answer": 1,
+      "explanation": "The lesson contrasts them: Projects are knowledge hubs, Skills are procedural machines (process). A skill can reference knowledge from a project. See: Claude 101 → Working with skills."
+    },
+    {
+      "id": "basic-033",
+      "topic": "Skills",
+      "prompt": "Why does the lesson advise you to install only custom Skills from trusted sources?",
+      "choices": [
+        "Because Skills take disk space",
+        "Because a Skill can include executable code",
+        "Because Skills can see all your memory",
+        "Because Skills are heavily rate-limited"
+      ],
+      "answer": 1,
+      "explanation": "Skills can contain executable code, so the lesson warns to only install from trusted sources and review what a custom Skill does before using it. See: Claude 101 → Working with skills."
+    },
+    {
+      "id": "basic-034",
+      "topic": "Connectors",
+      "prompt": "What is the open standard that powers Claude's connectors?",
+      "choices": [
+        "REST",
+        "OpenAPI",
+        "MCP — Model Context Protocol",
+        "OAuth 2.0"
+      ],
+      "answer": 2,
+      "explanation": "The lesson names MCP (Model Context Protocol) as the open standard behind connectors — 'USB-C for AI'. See: Claude 101 → Connecting your tools."
+    },
+    {
+      "id": "basic-035",
+      "topic": "Connectors",
+      "prompt": "Which of these statements about connectors is TRUE?",
+      "choices": [
+        "A connector lets Claude browse your data on its own, without being asked",
+        "Claude can only see what you can see in the connected service; disconnecting revokes access",
+        "Connectors are only for Enterprise plans",
+        "Only one connector can be active at a time"
+      ],
+      "answer": 1,
+      "explanation": "The lesson spells it out: Claude sees only what you see, and you can revoke access by disconnecting or through the service's own security settings. A connector gives a request somewhere to point; it does not go hunting on its own. See: Claude 101 → Connecting your tools."
+    },
+    {
+      "id": "basic-036",
+      "topic": "Connectors",
+      "prompt": "You want to use Claude with Jira. Which connector entry should you look for in the directory?",
+      "choices": [
+        "Jira",
+        "Confluence",
+        "Atlassian — covers both Jira and Confluence",
+        "There is no such connector"
+      ],
+      "answer": 2,
+      "explanation": "The lesson uses this exact example: one Atlassian entry covers both Jira and Confluence. See: Claude 101 → Connecting your tools."
+    },
+    {
+      "id": "basic-037",
+      "topic": "Connectors",
+      "prompt": "What is the difference between a web connector and a desktop extension?",
+      "choices": [
+        "A web connector works only on the web, a desktop extension works only on the desktop",
+        "A web connector links Claude to a cloud service through sign-in; a desktop extension runs locally through the Claude desktop app and reaches local files or native apps",
+        "A desktop extension is paid, a web connector is free",
+        "There is no difference"
+      ],
+      "answer": 1,
+      "explanation": "The lesson distinguishes them clearly: web connectors for cloud services, desktop extensions for local files and native apps on your computer. See: Claude 101 → Connecting your tools."
+    },
+    {
+      "id": "basic-038",
+      "topic": "Research & other",
+      "prompt": "Research mode in Claude is designed for what kind of task?",
+      "choices": [
+        "A one-line fact lookup",
+        "A multi-angle investigation across many sources that returns a cited report, typically five to forty-five minutes",
+        "A one-shot summary of a single document",
+        "An image search"
+      ],
+      "answer": 1,
+      "explanation": "Research breaks a complex question into sub-questions, explores hundreds of sources, and returns a cited report, usually in 5–45 minutes. See: Claude 101 → Research for deep dives."
+    },
+    {
+      "id": "basic-039",
+      "topic": "Research & other",
+      "prompt": "Which of these is a Claude surface built on top of a Microsoft 365 app?",
+      "choices": [
+        "Claude Tag",
+        "Claude for Microsoft 365 (sidebar in Excel, PowerPoint, Word and Outlook)",
+        "Claude Code",
+        "Claude Design"
+      ],
+      "answer": 1,
+      "explanation": "Claude for Microsoft 365 appears as a sidebar inside Excel, PowerPoint, Word and Outlook. See: Claude 101 → What is Claude? and Other ways to work with Claude."
+    },
+    {
+      "id": "basic-040",
+      "topic": "Across lessons",
+      "prompt": "You keep re-explaining the same brand guidelines and re-uploading the same style guide to Claude. Which feature should you use?",
+      "choices": [
+        "A long memory note",
+        "A Project with the guidelines in its knowledge base and the rules in its instructions",
+        "A custom Research prompt",
+        "A bigger context window"
+      ],
+      "answer": 1,
+      "explanation": "The lesson names this pattern exactly: when you re-upload the same files or re-explain the same rules, a Project is the fit. See: Claude 101 → Introduction to projects."
+    }
+  ]
+}

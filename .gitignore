@@ -1,0 +1,5 @@
+# nothing to ignore in a pure content + static-page repo, but we keep this file
+# so a cloned copy has somewhere to add local-only files later.
+.DS_Store
+*.swp
+*.swo
